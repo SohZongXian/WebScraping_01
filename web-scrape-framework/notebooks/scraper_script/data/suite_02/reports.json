@@ -1,0 +1,12 @@
+{
+"reports": [
+    {
+      "name": "Employee Pay",
+      "type": "Income Summary",
+      "description": "Run Payroll Income report",
+      "group_by": "Customer"
+        
+      
+    }
+]
+}

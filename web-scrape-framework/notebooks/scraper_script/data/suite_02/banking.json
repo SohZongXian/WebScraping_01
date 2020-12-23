@@ -1,0 +1,64 @@
+{
+  "banking": [
+    {
+      "name": "Cash",
+      "number": "1",
+      "bankname": "Cash",
+      "bankcurrency": "Malaysian Ringgit",
+      "bankphone": "",
+      "bankaddress": "",
+      "openingbalance": "",
+      "default": "No"
+    },
+    {
+      "name": "Income - Foreign Client",
+      "number": "13922-331293-12",
+      "bankname": "HSBC Bank",
+      "bankcurrency": "US Dollar",
+      "bankphone": "6032384919",
+      "bankaddress": "Menara HSBC, Jalan Bukit Bintang, KL, Malaysia",
+      "openingbalance": "",
+      "default": "No"
+    },
+    {
+      "name": "Income - Local Client",
+      "number": "78440-344913-23",
+      "bankname": "Maybank",
+      "bankcurrency": "Malaysian Ringgit",
+      "bankphone": "6037833293",
+      "bankaddress": "PJ State, Selangor, Malaysia",
+      "openingbalance": "",
+      "default": "Yes"
+    },
+    {
+      "name": "Bank - Expense",
+      "number": "23129-239128-43",
+      "bankname": "CIMB",
+      "bankcurrency": "Malaysian Ringgit",
+      "bankphone": "6037833293",
+      "bankaddress": "PJ State, Selangor, Malaysia",
+      "openingbalance": "",
+      "default": "No"
+    }
+  ],
+   "transfers": [
+    {
+      "date": "2019-11-01",
+      "amount": 200000000,
+      "faccount": "Income - Local Client",
+      "taccount": "Income - Foreign Client",
+      "description": "WWW Office Sdn Bhd",
+      "reference": "www",
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "date": "2019-12-01",
+      "amount": 200000000,
+      "faccount": "Income - Local Client",
+      "taccount": "Income - Foreign Client",
+      "description": "XXX Office Sdn Bhd",
+      "reference": "xxx",
+      "payment_method": "Cash"
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "purchase_invoices": [
+    {
+      "bill_number": "AIA001",
+      "status": "paid",
+      "bill_date": "2020-04-01",
+      "bill_amount": 2400,
+      "vendor": "AIA Insurance",
+      "currency": "Malaysia Ringgit",
+      "category": "Other Expenses",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Insurance",
+          "account_type": "Item",
+          "quantity": 1,
+          "price": 2400,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "PPP001",
+      "status": "paid",
+      "bill_date": "2020-04-01",
+      "bill_amount": 18000,
+      "vendor": "PPP Holdings Sdn Bhd",
+      "currency": "Malaysia Ringgit",
+      "category": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Ali Cloud",
+          "account_type": "Income",
+          "quantity": 1,
+          "price": 18000,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "X2004-010",
+      "status": "paid",
+      "bill_date": "2020-04-01",
+      "vendor": "XXX Office Supplies Sdn Bhd",
+      "bill_amount": 6822,
+      "currency": "Malaysia Ringgit",
+      "category": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Printer",
+          "account_type": "Income",
+          "quantity": 1,
+          "price": 6822,
+          "tax": ""
+        },
+        {
+          "name": "Chair",
+          "account_type": "Item",
+          "quantity": 1,
+          "price": 6822,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "YYY001",
+      "status": "paid",
+      "bill_date": "2020-04-15",
+      "bill_amount": 5000,
+      "vendor": "YYY IT Sdn Bhd",
+      "currency": "Malaysia Ringgit",
+      "category": "Project B",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Server 1",
+          "account_type": "Income",
+          "quantity": 1,
+          "price": 5000,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "ZZZ001",
+      "status": "paid",
+      "bill_date": "2020-04-15",
+      "bill_amount": 8000,
+      "vendor": "ZZZ Soultions Sdn Bhd",
+      "currency": "Malaysia Ringgit",
+      "category": "Project C",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "MS Office",
+          "account_type": "Expense",
+          "quantity": 1,
+          "price": 8000,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "X2004-010",
+      "status": "paid",
+      "bill_date": "2020-05-01",
+      "vendor": "XXX Office Supplies Sdn Bhd",
+      "bill_amount": 4954,
+      "currency": "Malaysia Ringgit",
+      "category": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Printer",
+          "account_type": "Expenses",
+          "quantity": 1,
+          "price": 4954,
+          "tax": ""
+        },
+        {
+          "name": "Chair",
+          "account_type": "Item",
+          "quantity": 1,
+          "price": 4954,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "Super001",
+      "status": "paid",
+      "bill_date": "2020-05-01",
+      "vendor": "Superman Event Sdn Bhd",
+      "bill_amount": 500,
+      "currency": "Malaysia Ringgit",
+      "category": "Marcom Expenses",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Advertisement",
+          "account_type": "Expense",
+          "quantity": 1,
+          "price": 500,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "PPP002",
+      "status": "paid",
+      "bill_date": "05/05/20",
+      "vendor": "PPP Holdings Sdn Bhd",
+      "bill_amount": 15000,
+      "currency": "Malaysia Ringgit",
+      "category": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Server 2",
+          "account_type": "Income",
+          "quantity": 1,
+          "price": 15000,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "X2004-010",
+      "status": "paid",
+      "bill_date": "2020-06-01",
+      "vendor": "XXX Office Supplies Sdn Bhd",
+      "bill_amount": 7647,
+      "currency": "Malaysia Ringgit",
+      "category": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Printer",
+          "account_type": "Expenses",
+          "quantity": 1,
+          "price": 7647,
+          "tax": ""
+        },
+        {
+          "name": "Chair",
+          "account_type": "Income",
+          "quantity": 1,
+          "price": 7647,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "PPP002",
+      "status": "paid",
+      "bill_date": "2020-06-01",
+      "vendor": "PPP Holdings Sdn Bhd",
+      "bill_amount": 15000,
+      "currency": "Malaysia Ringgit",
+      "category": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "MS Office",
+          "account_type": "Income",
+          "quantity": 1,
+          "price": 15000,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "Super002",
+      "status": "paid",
+      "bill_date": "2020-06-01",
+      "vendor": "Superman Event Sdn Bhd",
+      "bill_amount": 500,
+      "currency": "Malaysia Ringgit",
+      "category": "Marcom Expenses",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Advertisement",
+          "account_type": "Expense",
+          "quantity": 1,
+          "price": 500,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "YYY002",
+      "status": "paid",
+      "bill_date": "2020-07-01",
+      "bill_amount": 12000,
+      "vendor": "YYY IT Sdn Bhd",
+      "currency": "Malaysia Ringgit",
+      "category": "Project B",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Ali Cloud",
+          "account_type": "Income",
+          "quantity": 1,
+          "price": 12000,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "ZZZ002",
+      "status": "paid",
+      "bill_date": "2020-07-01",
+      "bill_amount": 10000,
+      "vendor": "ZZZ Soultions Sdn Bhd",
+      "currency": "Malaysia Ringgit",
+      "category": "Project C",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Server 2",
+          "account_type": "Expense",
+          "quantity": 1,
+          "price": 10000,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "YYY003",
+      "status": "partial",
+      "bill_date": "2020-07-01",
+      "bill_amount": 20000,
+      "vendor": "YYY IT Sdn Bhd",
+      "currency": "Malaysia Ringgit",
+      "category": "Project B",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "MS Office",
+          "account_type": "Income",
+          "quantity": 1,
+          "price": 20000,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "YYY004",
+      "status": "partial",
+      "bill_date": "2020-08-01",
+      "bill_amount": 20000,
+      "vendor": "YYY IT Sdn Bhd",
+      "currency": "Malaysia Ringgit",
+      "category": "Project B",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "GIANT System",
+          "account_type": "Income",
+          "quantity": 1,
+          "price": 20000,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "YYY005",
+      "status": "received",
+      "bill_date": "2020-09-01",
+      "bill_amount": 20000,
+      "vendor": "YYY IT Sdn Bhd",
+      "currency": "Malaysia Ringgit",
+      "category": "Project B",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "GIANT System",
+          "account_type": "Income",
+          "quantity": 1,
+          "price": 20000,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "ZZZ003",
+      "status": "received",
+      "bill_date": "2020-09-01",
+      "bill_amount": 20500,
+      "vendor": "ZZZ Soultions Sdn Bhd",
+      "currency": "Malaysia Ringgit",
+      "category": "Project C",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Google Cloud",
+          "account_type": "Expense",
+          "quantity": 1,
+          "price": 20500,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "YYY006",
+      "status": "received",
+      "bill_date": "2020-10-11",
+      "bill_amount": 20000,
+      "vendor": "YYY IT Sdn Bhd",
+      "currency": "Malaysia Ringgit",
+      "category": "Project B",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "GIANT System",
+          "account_type": "Income",
+          "quantity": 1,
+          "price": 20000,
+          "tax": ""
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "date": "2020-04-01",
+      "amount": 2400,
+      "account": "HSBC",
+      "vendor": "AIA Insurance",
+      "category": "Other Expenses",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "date": "2020-11-02",
+      "amount": 10000,
+      "account": "Bank - Expense",
+      "vendor": "WWW Office Sdn Bhd",
+      "category": "Other",
+      "recurring": "Weekly",
+      "payment_method": "Cheque"
+    }
+  ],
+  "vendors": [
+    {
+      "name": "XXX Office Supplies Sdn Bhd",
+      "email": "xxx@hotmail.com",
+      "tax": "Tax 6666 6666",
+      "phone": "603-1111 1111",
+      "address": "2, Jalan 21/12, Sea Park, 46300 Petaling Jaya, Selangor",
+      "website": "www.xxx.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "201-X001"
+    },
+    {
+      "name": "PPP Holdings Sdn Bhd",
+      "email": "ppp@hotmail.com",
+      "tax": "Tax 6666 6666",
+      "phone": "603-7777 7777",
+      "address": "Menara Hap Seng No 1 and 3 Jalan P Ramlee Kuala Kumpur, 50250 Malaysia",
+      "website": "www.ppp.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "Reference PPP"
+    },
+    {
+      "name": "ZZZ Soultions Sdn Bhd",
+      "email": "zzz@hotmail.com",
+      "tax": "Tax 6666 6666",
+      "phone": "603-6666 6666",
+      "address": "B-3A-03, Sky Park One City, Jalan USJ 25/1, 47650 Subang Jaya, Selangor.",
+      "website": "www.zzz.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "Ref ZZZ"
+    },
+    {
+      "name": "YYY IT Sdn Bhd",
+      "email": "yyy@hotmail.com",
+      "tax": "E 4444 4444",
+      "phone": "603- 5555 5555",
+      "address": "2, Jalan 21/12, Sea Park, 46300 Petaling Jaya, Selangor",
+      "website": "www.yyy.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "Ref YYY"
+    }
+  ],
+  "debit_notes": [
+    {
+      "bill_number": "YYY003",
+      "debit_note_number": "DN-0001",
+      "order_number": "Project B",
+      "status": "paid",
+      "debit_at": "2020-08-31",
+      "due_at": "1998-09-01",
+      "vendor": "YYY IT Sdn Bhd",
+      "currency": "Malaysia Ringgit",
+      "category": "Income",
+      "discount_rate": 1,
+      "items": [
+        {
+          "name": "MS Office",
+          "quantity": 3,
+          "price": "300",
+          "tax": "SST (6%)"
+        }
+      ]
+    }
+  ]
+}

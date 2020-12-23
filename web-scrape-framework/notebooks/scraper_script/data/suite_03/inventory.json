@@ -1,0 +1,75 @@
+{
+"items": [
+    {
+      "name": "Printer",  
+      "sku": "SKU00001",
+      "description": "Frago Printer",
+      "sale_price": 300,
+      "purchase_price": 150,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "AliCloud",  
+      "sku": "SKU00002",
+      "description": "",
+      "sale_price": 10000,
+      "purchase_price": 10000,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Google Cloud",  
+      "sku": "SKU00003",
+      "description": "",
+      "sale_price": 5000,
+      "purchase_price": 5000,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Server 1",  
+      "sku": "SKU00004",
+      "description": "Advertising & Promotion",
+      "sale_price": 30000,
+      "purchase_price": 20000,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Server 2",  
+      "sku": "SKU00005",
+      "description": "Insurance",
+      "sale_price": 5000,
+      "purchase_price": 5000,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "MS Office",  
+      "sku": "SKU00006",
+      "description": "Salary &  Wages",
+      "sale_price": 300,
+      "purchase_price": 300,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "GIANT System",  
+      "sku": "SKU00007",
+      "description": "Office Rental",
+      "sale_price": 3000,
+      "purchase_price": 3000,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    }
+  ]
+}
+   

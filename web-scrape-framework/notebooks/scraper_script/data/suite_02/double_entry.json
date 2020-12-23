@@ -1,0 +1,88 @@
+{
+"chart_of_accounts": [
+    {
+      "name": "Opening Balance",
+      "code": "301",
+      "type": "Current Asset",
+      "description": "Opening Balance",
+      "enabled": "Yes"
+    }
+],
+"journal_entries": [
+    {
+      "date": "2020-04-01",
+      "reference": "",
+      "description": "Cash Account Opening Balance",
+      "items": [
+        {
+          "account": "856 - Cash",
+          "debit": 10000
+        },
+        {
+          "account": "301 - Opening Balance",
+          "credit": 10000
+        }
+            ]
+    },
+    {
+      "date": "2020-04-01",
+      "reference": "",
+      "description": "Opening Balance - HSBC (13922-331293-12) ",
+      "items": [
+        {
+          "account": "Income - Foreign Client",
+          "debit": 83104.8
+        },
+        {
+          "account": "301 - Opening Balance",
+          "credit": 83104.8
+        }
+            ]
+    },
+    {
+      "date": "2020-04-01",
+      "reference": "",
+      "description": "Opening Balance - Maybank (78440-344913-23)",
+      "items": [
+        {
+          "account": "Income - Local Client",
+          "debit": 10000
+        },
+        {
+          "account": "301 - Opening Balance",
+          "credit": 10000
+        }
+            ]
+    },
+    {
+      "date": "2020-04-01",
+      "reference": "",
+      "description": "Opening Balance - Maybank (23129-239128-43)",
+      "items": [
+        {
+          "account": "Bank - Expense",
+          "debit": 350000
+        },
+        {
+          "account": "301 - Opening Balance",
+          "credit": 350000
+        }
+            ]
+    },
+    {
+      "date": "2020-04-01",
+      "reference": "",
+      "description": "Opening Balance - Maybank (34013-239293-23)",
+      "items": [
+        {
+          "account": "Bank - Tax",
+          "debit": 100
+        },
+        {
+          "account": "301 - Opening Balance",
+          "credit": 100
+        }
+            ]
+    }
+]
+}

@@ -1,0 +1,355 @@
+{
+  "company": {
+    "tax_number": "12345678",
+    "phone": "03-7711 5200",
+    "email_address": "info@fxasolution.com",
+    "address": "Level 12, Tower A, Plaze 33.1 Jalan Kemajuan, Section 13. 46200 Petaling Jaya, Selangor, Malaysia"
+  },
+  "bank_acc": [
+    {
+      "name": "HSBC",
+      "number": "13922-331293-12",
+      "currency": "USD",
+      "phone": "603-238 4919",
+      "address": "Menara HSBC, Jalan Bukit Bintang, KL, Malaysia",
+      "default": "No"
+    },
+    {
+      "name": "Maybank",
+      "number": "78440-344913-23",
+      "currency": "MYR",
+      "phone": "603-783 3293",
+      "address": "PJ State, Selangor, Malaysia",
+      "default": "Yes"
+    },
+    {
+      "name": "CIMB",
+      "number": "23129-239128-43",
+      "currency": "MYR",
+      "phone": "603-783 3293",
+      "address": "PJ State, Selangor, Malaysia",
+      "default": "No"
+    }
+  ],
+  "localisation": {
+    "financial_year_start": "2020-04-01",
+    "time_zone": "Kuala Lumpur",
+    "date_format": "31 Dec 2017",
+    "date_separator": "Space ( )",
+    "percent_position": "After Number",
+    "discount_location": "Both line and total"
+  },
+  "currency": [
+    {
+      "name": "Malaysia Ringgit",
+      "code": "MYR",
+      "rate": 1,
+      "precision": 2,
+      "decimal_mark": ".",
+      "thousands_separator": ",",
+      "default": "Yes"
+    },
+    {
+      "name": "Singapore Dollar",
+      "code": "SGD",
+      "rate": 0.32733,
+      "precision": 2,
+      "decimal_mark": ".",
+      "thousands_separator": ",",
+      "default": "No"
+    },
+    {
+      "name": "US Dollar",
+      "code": "USD",
+      "rate": 0.24066,
+      "precision": 2,
+      "decimal_mark": ".",
+      "thousands_separator": ",",
+      "default": "No"
+    },
+    {
+      "name": "British Pound",
+      "code": "GBP",
+      "rate": 0.18578,
+      "precision": 2,
+      "decimal_mark": ".",
+      "thousands_separator": ",",
+      "default": "No"
+    },
+    {
+      "name": "Chinese Yuan Renminbi",
+      "code": "CNY",
+      "rate": 1.63369,
+      "precision": 2,
+      "decimal_mark": ".",
+      "thousands_separator": ",",
+      "default": "No"
+    }
+  ],
+  "tax": [
+    {
+      "name": "SST",
+      "rate_%": 6,
+      "type": "Normal",
+      "code": null
+    }
+  ],
+  "category": [
+    {
+      "name": "Software",
+      "type": "Item",
+      "colour": "#55588b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Cloud Subscription",
+      "type": "Item",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Server",
+      "type": "Item",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Office Equipment",
+      "type": "Item",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Furniture & Fittings",
+      "type": "Item",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Marketing",
+      "type": "Item",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Wellfare",
+      "type": "Item",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Sales",
+      "type": "Income",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Deposit",
+      "type": "Income",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "General - Marcom",
+      "type": "Expense",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Staff Wellfare",
+      "type": "Expense",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Others",
+      "type": "Expense",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Project A",
+      "type": "Income",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Project B",
+      "type": "Income",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Project C",
+      "type": "Income",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    }
+  ],
+  "items": [
+    {
+      "name": "Printer",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Office Equipment",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Chair - Meeting",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Furniture & Fittings",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Chair - Work Station",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Furniture & Fittings",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Chair - Work Station",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Furniture & Fittings",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Table - Meeting Room",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Furniture & Fittings",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Table - Work Station",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Furniture & Fittings",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Water Dispenser",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Furniture & Fittings",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Insurance",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Staff Wellfare",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Advertisement",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Marketing",
+      "enabled": "Yes"
+    },
+    {
+      "name": "GIANT Accounting",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Software",
+      "enabled": "Yes"
+    },
+    {
+      "name": "MS Office",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Software",
+      "enabled": "Yes"
+    },
+    {
+      "name": "AliCloud",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Cloud Subscription",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Google Cloud",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Cloud Subscription",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Server 1",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Server",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Server 2",
+      "tax": "default",
+      "Description": "default",
+      "sale Price": "00",
+      "purchase Price": "00",
+      "category": "Server",
+      "enabled": "Yes"
+    }
+  ],
+  "invoice": {
+    "number_prefix": "INV2011-",
+    "number_digit": 3,
+    "next_number": 1,
+    "payment_terms": "Due within 30 days",
+    "title": "Invoice"
+  },
+  "credit_note": {
+    "number_prefix": "CN-",
+    "number_digit": 5,
+    "next_number": 1,
+    "payment_terms": null
+  },
+  "debit_note": {
+    "number_prefix": "DN-",
+    "number_digit": 5,
+    "next_number": 1,
+    "payment_terms": null
+  },
+  "payroll": {
+    "Run Payroll Advanced": {
+      "number_prefix": "PR-",
+      "number_digit": 5,
+      "next_number": 1,
+      "account": "Bank - Expense",
+      "category": "Payroll",
+      "payment_method": "Bank Transfer"
+    }
+  }
+}

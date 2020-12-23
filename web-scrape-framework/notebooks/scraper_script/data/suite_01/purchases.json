@@ -1,0 +1,172 @@
+{
+"invoices": [
+    {
+      "bill_number": "BIL-00013",
+      "order_number": "Project B",
+      "status": "paid",
+      "bill_date": "1997-08-01",
+      "due_at": "1998-09-01",
+      "vendor": "AAA Sdn Bhd",
+      "currency": "Malaysia Ringgit",
+      "category": "Other",
+      "discount_rate": "",
+      "payment_date": "1998-08-30",
+      "payment_method": "Bank Transfer",
+      "account": "Maybank",
+      "items": [
+        {
+          "name": "Printer",
+          "account_type": "652 - Printing & Stationary",
+          "quantity": 3,
+          "tax": ""
+        }
+      ]
+    },
+    {
+      "bill_number": "BIL-00014",
+      "order_number": "Project A",
+      "status": "paid",
+      "bill_date": "1998-08-01",
+      "due_at": "1998-09-01",
+      "vendor": "AAA Sdn Bhd",
+      "currency": "Malaysia Ringgit",
+      "category": "Other",
+      "discount_rate": "",
+      "payment_date": "1998-08-30",
+      "payment_method": "Bank Transfer",
+      "account": "Maybank",
+      "items": [
+        {
+          "name": "Printer",
+          "account_type": "652 - Printing & Stationary",
+          "quantity": 3,
+          "tax": ""
+        }
+      ]
+    }
+  ],
+"payments": [
+    {
+      "date": "2020-11-01",
+      "amount": 20000,
+      "account": "Bank - Expense",
+      "vendor": "WWW Office Sdn Bhd",
+      "category": "Payroll",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    },
+    {
+    "date": "2020-11-02",
+    "amount": 10000,
+    "account": "Bank - Expense",
+      "vendor": "WWW Office Sdn Bhd",
+      "category": "Other",
+      "recurring": "Weekly",
+      "payment_method": "Cheque"
+    }
+  ],
+"vendors": [
+    {
+      "name": "XXX Office Supplies Sdn Bhd",  
+      "email": "xxx@hotmail.com",
+      "tax": "Tax 6666 6666",
+      "phone": "603-4444 4444",
+      "address": "2, Jalan 21/12, Sea Park, 46300 Petaling Jaya, Selangor",
+      "website": "www.xxx.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "201-X001"
+    },
+    {
+      "name": "PPP Holdings Sdn Bhd",  
+      "email": "ppp@hotmail.com",
+      "tax": "Tax 6666 6666",
+      "phone": "603-7777 7777",
+      "address": "Menara Hap Seng No 1 and 3 Jalan P Ramlee Kuala Kumpur, 50250 Malaysia",
+      "website": "www.ppp.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "Reference PPP"
+    },
+    {
+      "name": "AIA Insurance",  
+      "email": "aiainsurance@hotmail.com",
+      "tax": "Tax 6666 6666",
+      "phone": "603-8888 8888",
+      "address": "Level 20, Tower A, Plaza 33. 1 Jalan Kemajuan, Section 13. 46200 Petaling Jaya, Selangor, Malaysia.",
+      "website": "www.aia.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "Ref ZZZ"
+    },
+    {
+      "name": "Superman Event Sdn Bhd",  
+      "email": "superman@hotmail.com",
+      "tax": "E 4444 4444",
+      "phone": "603-9999 9999",
+      "address": "65-2, Jalan Equine 10, Equine Park,  43300 Seri Kembangan, Selangor.",
+      "website": "www.superman.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "Ref YYY"
+    },
+    {
+      "name": "YYY IT Sdn Bhd",  
+      "email": "yyy@hotmail.com",
+      "tax": "E 4444 4444",
+      "phone": "603- 5555 5555",
+      "address": "A-2-9, 8 Avenue, Jalan Sungai Jernih 8/1, Seksyen 8, 46050 Petaling Jaya, Selangor Darul Ehsan.",
+      "website": "www.yyy.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "Ref YYY"
+    },
+    {
+      "name": "ZZZ Soultions Sdn Bhd",  
+      "email": "zzz@hotmail.com",
+      "tax": "E 4444 4444",
+      "phone": "603-6666 6666",
+      "address": "B-3A-03, Sky Park One City, Jalan USJ 25/1, 47650 Subang Jaya, Selangor.",
+      "website": "www.zzz.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "Ref YYY"
+    }
+    ],
+"debit_notes": [
+    {
+      "bill_number": "BIL-00013",
+      "debit_note_number": "DN-0001",
+      "order_number": "Project B",
+      "status": "paid",
+      "debit_at": "1997-08-01",
+      "due_at": "1998-09-01",
+      "vendor": "AAA Sdn Bhd",
+      "currency": "British Pound",
+      "category": "Other",
+      "discount_rate": 1,
+      "items": [
+        {
+          "name": "Printer",
+          "quantity": 3,
+          "price": 25000,
+          "tax": "SST (6%)"
+        }
+      ]
+    },
+    {
+      "bill_number": "BIL-00014",
+      "debit_note_number": "DN-0001",
+      "order_number": "Project A",
+      "status": "paid",
+      "debit_at": "1998-08-01",
+      "due_at": "1998-09-01",
+      "vendor": "AAA Sdn Bhd",
+      "currency": "US Dollar",
+      "category": "Other",
+      "discount_rate": 1,
+      "items": [
+        {
+          "name": "Printer",
+          "quantity": 3,
+          "price": 25000,
+          "tax": "SST (6%)"
+        }
+      ]
+    }
+  ]
+}

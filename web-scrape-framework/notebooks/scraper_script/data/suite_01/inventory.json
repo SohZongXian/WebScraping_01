@@ -1,0 +1,85 @@
+{
+"items": [
+    {
+      "name": "Printer",  
+      "sku": "SKU00001",
+      "description": "Frago Printer",
+      "sale_price": 300,
+      "purchase_price": 150,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Project",  
+      "sku": "SKU00002",
+      "description": "",
+      "sale_price": 10000,
+      "purchase_price": 10000,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Furnitures & Fittings",  
+      "sku": "SKU00003",
+      "description": "",
+      "sale_price": 5000,
+      "purchase_price": 5000,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Advertising & Promotion",  
+      "sku": "SKU00004",
+      "description": "Advertising & Promotion",
+      "sale_price": 30000,
+      "purchase_price": 20000,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Insurance",  
+      "sku": "SKU00005",
+      "description": "Insurance",
+      "sale_price": 5000,
+      "purchase_price": 5000,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Salary &  Wages",  
+      "sku": "SKU00006",
+      "description": "Salary &  Wages",
+      "sale_price": 300,
+      "purchase_price": 300,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Office Rental",  
+      "sku": "SKU00007",
+      "description": "Office Rental",
+      "sale_price": 3000,
+      "purchase_price": 3000,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Upkeep of Computer Equipment",  
+      "sku": "SKU00008",
+      "description": "Upkeep of Computer Equipment",
+      "sale_price": 12000,
+      "purchase_price": 12000,
+      "category": "General",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    }
+  ]
+}
+   

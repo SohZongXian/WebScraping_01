@@ -1,0 +1,173 @@
+{
+"invoices": [
+    {
+      "customer": "ABC Sdn Bhd",  
+      "invoice_number": "INV2008-001",
+      "payment": "Cash",
+      "account": "Income - Local Client",
+      "description": "ABC", 
+      "reference": "Sales",
+      "order_number": "Project B",
+      "status": "paid",
+      "invoiced_at": "1997-08-01",
+      "due_at": "1998-09-01",
+      "currency": "British Pound",
+      "category": "Sales",
+      "discount_rate": 1,
+      "items": [
+        {
+          "name": "Printer",
+          "account_type": "400 - Sales",
+          "quantity": 3,
+          "tax": "SST (6%)",
+          "price": 200000
+        }
+      ]
+    },
+    {
+      "customer": "AAA Sdn Bhd",  
+      "invoice_number": "INV2008-002",
+      "description": "ABB", 
+      "reference": "Sales",
+      "order_number": "Project B",
+      "status": "paid",
+      "invoiced_at": "1997-08-01",
+      "due_at": "1998-09-01",
+      "currency": "British Pound",
+      "category": "Sales",
+      "discount_rate": 1,
+      "items": [
+        {
+          "name": "Printer",
+          "account_type": "400 - Sales",
+          "quantity": 3,
+          "tax": "SST (6%)",
+          "price": 200000
+        }
+      ]
+    }
+  ],
+"collections": [
+    {
+      "customer": "ABC Sdn Bhd",  
+      "amount": 200000,
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "date": "1997-08-01",
+      "category": "Sales",
+      "payment": "Cash",
+      "reference": "Sales"
+    },
+    {
+      "customer": "ABC Sdn Bhd",  
+      "amount": 200000,
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "date": "1997-08-01",
+      "category": "Sales",
+      "payment": "Cash",
+      "reference": "Sales"
+    }
+  ],
+"customers": [
+    {
+      "name": "AAA Sdn Bhd",  
+      "email": "aaa@hotmail.com",
+      "tax": "E 1111 1111",
+      "phone": "603-1111 1111",
+      "address": "Level 1 & 3A, Tower 8 Avenue 5, The Horizon, Bangsar South No.8, Jalan Kerinchi, 59200 Kuala Lumpur",
+      "website": "www.aaa.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "Default"
+    },
+    {
+      "name": "BBB Sdn Bhd",  
+      "email": "bbb@hotmail.com",
+      "tax": "E 2222 2222",
+      "phone": "603-2222 2222",
+      "address": "No.15, Jalan Astaka U8/83, 40150 Jelutong,Selangor , MY",
+      "website": "www.bbb.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "Default"
+    },
+    {
+      "name": "CCC Sdn Bhd",  
+      "email": "ccc@hotmail.com",
+      "tax": "E 3333 3333",
+      "phone": "603-3333 3333",
+      "address": "Menara Hap Seng No 1 and 3 Jalan P Ramlee Kuala Kumpur, 50250 Malaysia",
+      "website": "www.ccc.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "Default"
+    },
+    {
+      "name": "XXX Sdn Bhd",  
+      "email": "xxx@hotmail.com",
+      "tax": "E 4444 4444",
+      "phone": "603-4444 4444",
+      "address": "2, Jalan 21/12, Sea Park, 46300 Petaling Jaya, Selangor",
+      "website": "www.xxx.com",
+      "currency": "Malaysia Ringgit",
+      "reference": "Default"
+    }
+  ],
+"revenues": [
+    {
+      "date": "2020-11-01",
+      "amount": 20000,
+      "account": "Bank - Expense",
+      "customer": "ABC Sdn Bhd",
+      "category": "Sales",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "date": "2020-11-02",
+      "amount": 10000,
+      "account": "Bank - Expense",
+      "customer": "ABC Sdn Bhd",
+      "category": "Deposit",
+      "recurring": "Weekly",
+      "payment_method": "Cheque"
+    }
+],
+"credit_notes": [
+    {
+      "invoice_number": "INV2008-001",
+      "credit_at": "1997-08-01",
+      "credit_note_number": "CN-00005",
+      "currency": "British Pound",
+      "category": "Sales",
+      "customer": "Soh",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Printer",
+          "account_type": "652 - Printing & Stationary",
+          "quantity": 1,
+          "tax": "",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "invoice_number": "INV2008-003",
+      "credit_at": "1997-08-01",
+      "credit_note_number": "CN-00006",
+      "currency": "US Dollar",
+      "category": "Sales",
+      "customer": "zong",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Printer",
+          "account_type": "652 - Printing & Stationary",
+          "quantity": 1,
+          "tax": "",
+          "price": 1000
+            
+        }
+      ]
+    }
+  ]
+}

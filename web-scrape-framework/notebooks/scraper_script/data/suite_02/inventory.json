@@ -1,0 +1,131 @@
+{
+"items": [
+    {
+      "name": "Printer",  
+      "description": "Frago Printer",
+      "sale_price": 400,
+      "purchase_price": 400,
+      "category": "Office Equipment",
+      "tax": "",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Chair - Meeting",  
+      "description": "",
+      "sale_price": 400,
+      "purchase_price": 400,
+      "category": "Furniture & Fittings",
+      "tax": "SST (6%)",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Chair - Work Station",  
+      "description": "",
+      "sale_price": 400,
+      "purchase_price": 400,
+      "category": "Furniture & Fittings",
+      "tax": "",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Table - Meeting Room",  
+      "description": "",
+      "sale_price": 1000,
+      "purchase_price": 1000,
+      "category": "Furniture & Fittings",
+      "tax": "",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Table - Work Station",  
+      "description": "",
+      "sale_price": 700,
+      "purchase_price": 700,
+      "category": "Furniture & Fittings",
+      "tax": "",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Water Dispenser",  
+      "description": "",
+      "sale_price": 1000,
+      "purchase_price": 1000,
+      "category": "Furniture & Fittings",
+      "tax": "",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Insurance",  
+      "description": "",
+      "sale_price": 5000,
+      "purchase_price": 5000,
+      "category": "Wellfare",
+      "tax": "",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Advertisement",  
+      "description": "",
+      "sale_price": 8000,
+      "purchase_price": 8000,
+      "category": "Marketing",
+      "tax": "",
+      "enabled": "Yes"
+    },
+    {
+      "name": "GIANT Accounting",  
+      "description": "",
+      "sale_price": 8000,
+      "purchase_price": 8000,
+      "category": "Software",
+      "tax": "",
+      "enabled": "Yes"
+    },
+    {
+      "name": "MS Office",  
+      "description": "",
+      "sale_price": 8000,
+      "purchase_price": 8000,
+      "category": "Software",
+      "tax": "",
+      "enabled": "Yes"
+    },
+    {
+      "name": "AliCloud",  
+      "description": "",
+      "sale_price": 20000,
+      "purchase_price": 20000,
+      "category": "Cloud Subscription",
+      "tax": "",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Google Cloud",  
+      "description": "",
+      "sale_price": 20000,
+      "purchase_price": 20000,
+      "category": "Cloud Subscription",
+      "tax": "",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Server 1",  
+      "description": "",
+      "sale_price": 12000,
+      "purchase_price": 12000,
+      "category": "Server",
+      "tax": "",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Server 2",  
+      "description": "",
+      "sale_price": 12000,
+      "purchase_price": 12000,
+      "category": "Server",
+      "tax": "",
+      "enabled": "Yes"
+    }
+  ]
+}
+   

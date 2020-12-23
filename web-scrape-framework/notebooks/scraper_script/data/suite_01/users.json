@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Mickey Mouse",
+    "email": "mickeym@gmail.com",
+    "password": "mickey123",
+    "language": "English (GB)",
+    "landing_page": "Dashboard",
+    "companies": ["PW Enterprise"],
+    "roles": ["Accountant"],
+    "enabled": "Yes"
+  }
+]

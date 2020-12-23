@@ -1,0 +1,144 @@
+{
+  "company": {
+    "tax_number": "E34394183",
+    "phone": "60377115833",
+    "email_address": "adventureworks@advw.com",
+    "address": "Level 18, Block A, Jaya 33, Seksyen 14, PJ, Selangor, Malaysia"
+  },
+  "localisation": {
+    "financial_year_start": "2020-04-01",
+    "time_zone": "London",
+    "date_format": "31 Dec 2017",
+    "date_separator": "Space ( )",
+    "percent_position": "After Number",
+    "discount_location": "At total"
+  },
+  "currency": [
+    {
+      "name": "Malaysian Ringgit",
+      "code": "MYR",
+      "rate": 1,
+      "precision": 4,
+      "decimal_mark": ".",
+      "thousands_separator": ",",
+      "default": "Yes",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Singapore Dollar",
+      "code": "SGD",
+      "rate": 0.32733,
+      "precision": 4,
+      "decimal_mark": ".",
+      "thousands_separator": ",",
+      "default": "No",
+      "enabled": "Yes"
+    },
+    {
+      "name": "US Dollar",
+      "code": "USD",
+      "rate": 0.24066,
+      "precision": 4,
+      "decimal_mark": ".",
+      "thousands_separator": ",",
+      "default": "No",
+      "enabled": "Yes"
+    },
+    {
+      "name": "British Pound",
+      "code": "GBP",
+      "rate": 0.18578,
+      "precision": 4,
+      "decimal_mark": ".",
+      "thousands_separator": ",",
+      "default": "No",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Chinese Yuan Renminbi",
+      "code": "CNY",
+      "rate": 1.63369,
+      "precision": 4,
+      "decimal_mark": ".",
+      "thousands_separator": ",",
+      "default": "No",
+      "enabled": "Yes"
+    }
+  ],
+  "tax": [
+   {
+    "name": "SST",
+    "rate_%": 6,
+    "type": "Normal",
+    "code": null
+   }
+  ],
+  "category": [
+    {
+      "name": "Payroll",
+      "type": "Expense",
+      "colour": "#55588b",
+      "enabled": "Yes"
+    },
+    {
+      "name": "Assets",
+      "type": "Other",
+      "colour": "#55587b",
+      "enabled": "Yes"
+    }
+   ],
+  "offline_payments": [
+    {
+      "name": "Cash",
+      "code": "cash",
+      "order": "1",
+      "show_to_customer": "No"
+    },
+    {
+      "name": "Bank Transfer",
+      "code": "bank_transfer",
+      "order": "2",
+      "show_to_customer": "Yes"
+    },
+    {
+      "name": "Cheque",
+      "code": "cheque",
+      "order": "3",
+      "show_to_customer": "Yes"
+    },
+    {
+      "name": "Telegraphic Transfer",
+      "code": "tt",
+      "order": "4",
+      "show_to_customer": "Yes"
+    }
+   ],
+  "invoice": {
+    "number_prefix": "INV-",
+    "number_digit": 5,
+    "next_number": 1,
+    "payment_terms": "Due within 30 days"
+  },
+  "credit_note": {
+    "number_prefix": "CN-",
+    "number_digit": 5,
+    "next_number": 1,
+    "payment_terms": null
+  },
+  "debit_note": {
+    "number_prefix": "DN-",
+    "number_digit": 5,
+    "next_number": 1,
+    "payment_terms": null
+  },
+  "payroll": {
+    "Run Payroll Advanced": {
+      "number_prefix": "PR-",
+      "number_digit": 5,
+      "next_number": 1,
+      "account": "Bank - Expense",
+      "category": "Payroll",
+      "payment_method": "Bank Transfer"
+    }
+  }
+}

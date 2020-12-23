@@ -1,0 +1,657 @@
+{
+"invoices": [
+    {
+      "customer": "BBB Sdn Bhd",  
+      "invoice_number": "INV2004-001",
+      "status": "paid",
+      "invoiced_at": "2020-04-30",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "due_at": "2020-05-31",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "order_number": "Project B",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "AliCloud",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 10000
+        }
+      ]
+    },
+    {
+      "customer": "CCC Sdn Bhd",  
+      "invoice_number": "INV2004-002",
+      "status": "paid",
+      "invoiced_at": "2020-04-30",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "due_at": "2020-05-31",
+      "currency": "British Pound",
+      "category": "Sales",
+      "order_number": "Project B",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Google Cloud",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 15000
+        }
+      ]
+    },
+    {
+      "customer": "AAA Sdn Bhd",  
+      "invoice_number": "INV2004-003",
+      "status": "paid",
+      "invoiced_at": "2020-04-30",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",    
+      "due_at": "2020-05-31",
+      "currency": "Malaysian Ringgit",
+      "category": "Deposit",
+      "order_number": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "AliCloud",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 15000
+        }
+      ]
+    },
+    {
+      "customer": "AAA Sdn Bhd",  
+      "invoice_number": "INV2005-001",
+      "status": "paid",
+      "invoiced_at": "2020-05-30",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "due_at": "2020-06-30",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "order_number": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Server 1",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 18000
+        }
+      ]
+    },
+    {
+      "customer": "AAA Sdn Bhd",  
+      "invoice_number": "INV2006-001",
+      "status": "paid",
+      "invoiced_at": "2020-06-15",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "due_at": "2020-07-31",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "order_number": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "AliCloud",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 5000
+        }
+      ]
+    },
+    {
+      "customer": "AAA Sdn Bhd",  
+      "invoice_number": "INV2006-002",
+      "status": "paid",
+      "invoiced_at": "2020-06-15",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "due_at": "2020-07-31",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "order_number": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Server 2",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 5000
+        }
+      ]
+    },
+    {
+      "customer": "AAA Sdn Bhd",  
+      "invoice_number": "INV2007-001",
+      "status": "paid",
+      "invoiced_at": "2020-07-01",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "due_at": "2020-08-31",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "order_number": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "MS Office",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 20000
+        }
+      ]
+    },
+    {
+      "customer": "BBB Sdn Bhd",  
+      "invoice_number": "INV2007-002",
+      "status": "paid",
+      "invoiced_at": "2020-07-15",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "due_at": "2020-08-31",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "order_number": "Project B",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Server 1",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 25000
+        }
+      ]
+    },
+    {
+      "customer": "BBB Sdn Bhd",  
+      "invoice_number": "INV2007-003",
+      "status": "paid",
+      "invoiced_at": "2020-07-31",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "due_at": "2020-08-31",
+      "currency": "Malaysian Ringgit",
+      "category": "Deposit",
+      "order_number": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "AliCloud",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 30000
+        }
+      ]
+    },
+    {
+      "customer": "CCC Sdn Bhd",  
+      "invoice_number": "INV2008-001",
+      "status": "paid",
+      "invoiced_at": "2020-08-01",
+      "due_at": "2020-09-30",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "order_number": "Project C",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Server 2",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 15000
+        }
+      ]
+    },
+    {
+      "customer": "CCC Sdn Bhd",  
+      "invoice_number": "INV2008-002",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "status": "paid",
+      "invoiced_at": "2020-08-01",
+      "due_at": "2020-09-30",
+      "currency": "Malaysian Ringgit",
+      "category": "Project C",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Google Cloud",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 17000
+        }
+      ]
+    },
+    {
+      "customer": "BBB Sdn Bhd",  
+      "invoice_number": "INV2008-003",
+      "status": "sent",
+      "invoiced_at": "2020-08-01",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "due_at": "2020-09-30",
+      "currency": "Malaysian Ringgit",
+      "category": "Project B",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "Server 2",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 25000
+        }
+      ]
+    },
+    {
+      "customer": "BBB Sdn Bhd",  
+      "invoice_number": "INV2009-001",
+      "status": "sent",
+      "invoiced_at": "2020-09-01",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "due_at": "2020-10-30",
+      "currency": "Malaysian Ringgit",
+      "category": "Project B",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "MS Office",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 30000
+        }
+      ]
+    },
+    {
+      "customer": "CCC Sdn Bhd",  
+      "invoice_number": "INV2009-002",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "status": "sent",
+      "invoiced_at": "2020-09-15",
+      "due_at": "2020-10-30",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "order_number": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "GIANT System",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 20000
+        }
+      ]
+    },
+    {
+      "customer": "CCC Sdn Bhd",  
+      "invoice_number": "INV2009-003",
+      "status": "sent",
+      "invoiced_at": "2020-09-30",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "due_at": "2020-10-31",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "order_number": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "MS Office",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 25000
+        }
+      ]
+    },
+    {
+      "customer": "AAA Sdn Bhd",  
+      "invoice_number": "INV2010-001",
+      "status": "sent",
+      "invoiced_at": "2020-10-11",
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "due_at": "2020-11-30",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "order_number": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "GIANT System",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 11200
+        }
+      ]
+    },
+    {
+      "customer": "BBB Sdn Bhd",  
+      "invoice_number": "INV2010-002",
+      "status": "sent",
+      "invoiced_at": "2020-10-15",
+      "account": "Income - Foreign Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "payment": "Cash",  
+      "due_at": "2020-11-30",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "order_number": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "GIANT System",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 35000
+        }
+      ]
+    },
+    {
+      "customer": "CCC Sdn Bhd",  
+      "invoice_number": "INV2010-003",
+      "status": "draft",
+      "invoiced_at": "2020-10-30",
+      "account": "Income - Foreign Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "due_at": "2020-11-30",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "order_number": "Project C",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "MS Office",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 25000
+        }
+      ]
+    },
+    {
+      "customer": "DDD IT Solution",  
+      "invoice_number": "INV2010-004",
+      "status": "paid",
+      "invoiced_at": "2020-10-31",
+      "account": "Income - Foreign Client",
+      "description": "ABC",
+      "reference": "Sales",
+      "due_at": "2020-11-30",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "order_number": "Project A",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "AliCloud",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 10000
+        }
+      ]
+    }
+  ],
+"customers": [
+    {
+      "name": "Customer 4",  
+      "email": "Customer 4@customer.com",
+      "tax": "2234412",
+      "phone": "012-1234567",
+      "address": "75, Jalan Jaya 1, Taman A",
+      "website": "",
+      "currency": "US Dollar",
+      "reference": "Default"
+    },
+    {
+      "name": "Customer 5",  
+      "email": "Customer 5@customer.com",
+      "tax": "2234214",
+      "phone": "012-1234568",
+      "address": "75, Jalan Jaya 2, Taman B",
+      "website": "",
+      "currency": "Malaysian Ringgit",
+      "reference": "Default"
+    },
+    {
+      "name": "Customer 6",  
+      "email": "Customer 6@customer.com",
+      "tax": "5534125",
+      "phone": "012-1234569",
+      "address": "75, Jalan Jaya 3, Taman C",
+      "website": "",
+      "currency": "Malaysian Ringgit",
+      "reference": "Default"
+    },
+    {
+      "name": "Customer 7",  
+      "email": "Customer 7@customer.com",
+      "tax": "2231552",
+      "phone": "012-1234570",
+      "address": "",
+      "website": "www.test4.com.my",
+      "currency": "Malaysian Ringgit",
+      "reference": "Default"
+    },
+    {
+      "name": "Customer 8",  
+      "email": "Customer 8@customer.com",
+      "tax": "8445135",
+      "phone": "012-1234571",
+      "address": "75, Jalan Jaya 5, Taman 5",
+      "website": "",
+      "currency": "Malaysian Ringgit",
+      "reference": "Default"
+    },
+    {
+      "name": "Customer 8",  
+      "email": "Customer 9@customer.com",
+      "tax": "1234567",
+      "phone": "012-1234572",
+      "address": "75, Jalan Jaya 5, Taman 6",
+      "website": "",
+      "currency": "British Pound",
+      "reference": "Default"
+    },
+  ],
+"revenues": [
+    {
+      "date": "2020-05-30",
+      "amount": 10000,
+      "account": "Maybank",
+      "customer": "BBB Sdn Bhd",
+      "category": "Sales",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "date": "2020-05-30",
+      "amount": 15000,
+      "account": "Maybank",
+      "customer": "CCC Sdn Bhd",
+      "category": "Sales",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "date": "2020-05-30",
+      "amount": 15000,
+      "account": "Maybank",
+      "customer": "AAA Sdn Bhd",
+      "category": "Sales",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "date": "2020-06-30",
+      "amount": 18000,
+      "account": "Maybank",
+      "customer": "AAA Sdn Bhd",
+      "category": "Sales",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "date": "2020-07-30",
+      "amount": 5000,
+      "account": "Maybank",
+      "customer": "AAA Sdn Bhd",
+      "category": "Sales",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "date": "2020-07-30",
+      "amount": 5000,
+      "account": "Maybank",
+      "customer": "AAA Sdn Bhd",
+      "category": "Sales",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "date": "2020-08-31",
+      "amount": 15000,
+      "account": "Maybank",
+      "customer": "AAA Sdn Bhd",
+      "category": "Sales",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "date": "2020-08-31",
+      "amount": 25000,
+      "account": "Maybank",
+      "customer": "BBB Sdn Bhd",
+      "category": "Sales",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "date": "2020-08-31",
+      "amount": 30000,
+      "account": "Maybank",
+      "customer": "BBB Sdn Bhd",
+      "category": "Sales",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "date": "2020-09-30",
+      "amount": 15000,
+      "account": "Maybank",
+      "customer": "CCC Sdn Bhd",
+      "category": "Sales",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    },
+    {
+      "date": "2020-09-30",
+      "amount": 17000,
+      "account": "Maybank",
+      "customer": "CCC Sdn Bhd",
+      "category": "Sales",
+      "recurring": "No",
+      "payment_method": "Bank Transfer"
+    }
+],
+"credit_notes": [
+    {
+      "invoice_number": "INV2007-001",
+      "credit_at": "2020-07-31",
+      "credit_note_number": "CN-001",
+      "currency": "Malaysian Ringgit",
+      "category": "Sales",
+      "customer": "AAA Sdn Bhd",
+      "discount_rate": "",
+      "items": [
+        {
+          "name": "MS Office",
+          "account_type": "400 - Sales",
+          "quantity": 1,
+          "tax": "",
+          "price": 5000
+        }
+      ]
+
+    }
+  ],
+"collections": [
+    {
+      "customer": "AAA Sdn Bhd",  
+      "amount": 200000,
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "date": "1997-08-01",
+      "category": "Sales",
+      "payment": "Cash",
+      "reference": "Sales"
+    },
+    {
+      "customer": "BBB Sdn Bhd",  
+      "amount": 200000,
+      "account": "Income - Local Client",
+      "description": "ABC",
+      "date": "1997-08-01",
+      "category": "Sales",
+      "payment": "Cash",
+      "reference": "Sales"
+    }
+  ]
+}
